@@ -13,10 +13,6 @@ class MyNumberCard {
     return this._owner;
   }
 
-  get secretNumber() {
-    return this._secretNumber;
-  }
-
   set secretNumber(secretNumber) {
     this._secretNumber = secretNumber;
   }
